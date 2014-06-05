@@ -3,7 +3,9 @@ RPi-HY28b-adapter
 
 This is a simple Raspberry Pi shield for the HY28b 2.8" touch LCD. The LCD can then be used as the primary display by following the instructions here: http://www.instructables.com/id/HY28B-Touch-Display-with-Raspberry-Pi/ . To modify the layout you have to download this library: http://bioserver.her.hcmr.gr/RaspberryPi.html and put it somewhere in your Eagle library path. You may also have to put the file hy28b.lbr somewhere where Eagle can find it as a library.
 
-The board is a two sided. But the layout is such that you can use the top layer for a one sided board and then wire the bottom side directly to the display pins. For that purpose there are sometimes two vias.
+![board layout](https://raw.github.com/jgeisler0303/RPi-HY28b-adapter/master/RPi_HY28b_adapter.png)
+
+The board is two sided. But the layout is such that you can use the top layer for a one sided board and then wire the bottom side directly to the display pins. For that purpose there are sometimes two vias.
 
 To make the make the assembled shield fit onto your Pi without colliding with the Ethernet jack you'll have to cut some unused pins from the display pcb and insulate them or the Ethernet jack with some tape.
 
