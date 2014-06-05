@@ -10,3 +10,4 @@ To make the make the assembled shield fit onto your Pi without colliding with th
 On this board I also broke out the serial port to a matching pin configuration of my favorite USB to serial adapter (http://imall.iteadstudio.com/im120525005.html). I have not tried it yet but using it with the arduino IDE should be straight forward following these instructions: http://openmicros.org/index.php/articles/94-ciseco-product-documentation/raspberry-pi/288-programming-an-arduino-from-your-raspberry-pi-with-ciseco-hardware .
 
 I also included the gcode I used to make the board on my CNC mill. The gcode was generated using pcb-gcode release 3.6.2.4 (download here: http://pcbgcode.org/list.php?12). It assumes a 0.1mm v shaped engraver going 0.05mm into the board. The outline is cut using a 1mm flute.
+
